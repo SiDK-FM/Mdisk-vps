@@ -26,7 +26,7 @@ from split import ss, temp_channel, isPremmium
 if isPremmium: acc = Client("myacc", api_id=api_id, api_hash=api_hash, session_string=ss)
 
 # optionals
-auth = os.environ.get("AUTH", "623741973,1864861524,5076949930,683684279,306027849,5316294458,5290630238,598394386,5410723702,1303200779,635819536,5135693898,817785442,5020113494,1278611015,5285296040,1335978271,1053140055,1024155122,1667559069,1057959919,1838349598,2083663200,540828579,5072829406,5753750662,910348411,5637860109,5580289036,5069888600,5552151289,5541612283,751366152,5344930478,5715297117,672148918,866545155,1262828639,5749138669,1492398806,5515158923,696401705,981462080,5769418923,1928306010,898811148,5937683464,1222974251,5307413215,1414678142,240296058,1121839250")
+auth = os.environ.get("AUTH", "1960614875")
 ban = os.environ.get("BAN", "")
 from mdisk import iswin
 
@@ -55,18 +55,18 @@ sᴇɴᴅ ᴍᴇ ᴀ ᴍᴅɪsᴋ ʟɪɴᴋ ᴀɴᴅ \nɪ ᴡɪʟʟ ᴜᴘʟᴏ�
 @app.on_message(filters.private & filters.command(["upgrade"]))
 async def start(client,message):
 	await message.reply_text(text =f"""
-	Hello \n
+	ʜᴇʟʟᴏ \n
 	🛡️ PLAN 🛡️\n
 	🌸Daily  Upload  limit Unlimited\n
 	🌸Price Rs 40 🇮🇳/🌎 2$  per Month__
 	
-	💸Pay Using Upi I'd \namitk8270@fbl\n
-	💸Pay Using qr code send /qr command\n
+	💸Pay Using Upi I'd \n``sandipakumar0911@okaxis``\n
+	
 	💸After Payment Send Screenshots Of\nPayment To Admin
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/Aaajats")], 
-        			[InlineKeyboardButton("PayPal 🌎",url = "https://www.paypal.me/ajak4406")],
+        			InlineKeyboardButton("🤍 ᴀᴅᴍɪɴ 🤒",url = "https://t.me/fm_onr")], 
+        			[InlineKeyboardButton(" ɢᴘᴀʏ🌎",url = "https://www.paypal.me/ajak4406")],
 		                [InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
        )
 	
@@ -76,10 +76,10 @@ async def start(client,message):
 	await message.reply_text("""
 	PAID PLANS AVAILABLE\n
 	🛡️ PLAN 🛡️\n
-	🌸Daily  Upload  limit Unlimited
-	🌸Price Rs 40 🇮🇳/🌎 1$  per Month__
-	🌸No Timeout\n
-Please /upgrade your subscription
+	🌸ᴅᴀɪʟʏ  ᴜᴘʟᴏᴀᴅ  ʟɪᴍɪᴛ ᴜɴʟɪᴍɪᴛᴇᴅ
+	🌸ᴘʀɪᴄᴇ ₹10 
+	🌸ɴᴏ ᴛɪᴍᴇᴏᴜᴛ\n
+ᴘʟᴇᴀsᴇ /upgrade ʏᴏᴜʀ sᴜʙsᴄʀɪᴘᴛɪᴏɴ
 	""")
 	
 # qr code
@@ -90,7 +90,7 @@ async def start(client,message):
     
 @app.on_message(filters.private & filters.command(["about"]))
 async def start(client,message):
-	await message.reply_text("📛 My Name : @renamerprov2_bot\n\n👨‍💻Creater :- @ajak4405\n\n🧿 Language :Python 3.10.8\n\n📢 Framework :Pyrogram 2.0.63\n\n🤖 Bot Server : VPS")
+	await message.reply_text("🤒 ᴍʏ ɴᴀᴍᴇ : @MensMdiskDLbot\n\n🤍 ᴄʀᴇᴀᴛᴇʀ :- @Fm_Onr\n\n🧿 ʟᴀɴɢᴜᴀɢᴇ :ᴘʏᴛʜᴏɴ 𝟹.𝟷𝟷.𝟸\n\n📢 ғʀᴀᴍᴇᴡᴏʀᴋ :ᴘʏʀᴏɢʀᴀᴍ 𝟸.𝟷𝟶.𝟼𝟹\n\n🤖 ʙᴏᴛ sᴇʀᴠᴇʀ : ʟᴜɴᴅ ʟᴇʟᴇ ʙsᴅᴋ")
 
 
 # check for user access
