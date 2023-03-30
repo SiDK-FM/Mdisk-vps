@@ -36,17 +36,17 @@ async def start(client,message):
 	await message.reply_text(text =f"""
 ʜɪ {message.from_user.first_name } 👋
 ɪ'ᴍ ᴘᴀɪᴅ ᴍᴅɪsᴋ ᴜᴘʟᴏᴀᴅᴇʀ ʙᴏᴛ 🚀\nᴘᴇʀᴍᴀɴᴇɴᴛ ᴛʜᴜᴍʙɴᴀɪʟ sᴜᴘᴘᴏʀᴛ💯\n
-sᴇɴᴅ ᴍᴇ ᴀ ᴍᴅɪsᴋ ʟɪɴᴋ ᴀɴᴅ \nɪ ᴡɪʟʟ ᴜᴘʟᴏᴀᴅ ɪᴛ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ ᴀs ᴀ file/video.\n
+sᴇɴᴅ ᴍᴇ ᴀ ᴍᴅɪsᴋ ʟɪɴᴋ ᴀɴᴅ \nɪ ᴡɪʟʟ ᴜᴘʟᴏᴀᴅ ɪᴛ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ ᴀs ᴀ ғɪʟᴇ/ᴠɪᴅᴇᴏ🎥.\n
 ᴘʟᴇᴀsᴇ /upgrade ʏᴏᴜʀ sᴜʙsᴄʀɪᴘᴛɪᴏɴ
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup( [[
-           InlineKeyboardButton("👼 𝙳𝙴𝚅𝚂 👼", url='https://t.me/Aaajats')
+           InlineKeyboardButton("👑 ᴏᴡɴᴇʀ 🫨", url='https://t.me/fm_onr')
            ],[
-           InlineKeyboardButton('📢 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/anumitultrabots'),
-           InlineKeyboardButton('🍂 𝚂𝚄𝙿𝙿𝙾𝚁𝚃', url='https://t.me/anumitultrabots')
+           InlineKeyboardButton('📢 ᴜᴘᴅᴀᴛᴇs ✨', url='https://t.me/mensBotZ'),
+           InlineKeyboardButton('🍂 sᴜᴘᴘᴏʀᴛ 🙂', url='https://t.me/fm_onr')
            ],[
-           InlineKeyboardButton('🍃 𝙰𝙱𝙾𝚄𝚃', callback_data='about'),
-           InlineKeyboardButton('ℹ️ Subscribe 🧐', url='https://youtube.com/@anumitultrabots')
+           InlineKeyboardButton('💐 ᴀʙᴏᴜᴛ 😕', callback_data='about'),
+           InlineKeyboardButton('🕊 ᴍᴏʀᴇ sᴛᴜғғ 🤍', url='https://t.me/filmy_men')
            ]]
           )
        )
