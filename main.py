@@ -34,10 +34,10 @@ from mdisk import iswin
 @app.on_message(filters.private & filters.command(["start"]))
 async def start(client,message):
 	await message.reply_text(text =f"""
-Hi {message.from_user.first_name } 👋
-I'm Paid Mdisk Uploader Bot 🚀\nPermanent Thumbnail Support💯\n
-Send me a Mdisk link and \nI will upload it to telegram as a file/video.\n
-Please /upgrade Your Subscription
+ʜɪ {message.from_user.first_name } 👋
+ɪ'ᴍ ᴘᴀɪᴅ ᴍᴅɪsᴋ ᴜᴘʟᴏᴀᴅᴇʀ ʙᴏᴛ 🚀\nᴘᴇʀᴍᴀɴᴇɴᴛ ᴛʜᴜᴍʙɴᴀɪʟ sᴜᴘᴘᴏʀᴛ💯\n
+sᴇɴᴅ ᴍᴇ ᴀ ᴍᴅɪsᴋ ʟɪɴᴋ ᴀɴᴅ \nɪ ᴡɪʟʟ ᴜᴘʟᴏᴀᴅ ɪᴛ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ ᴀs ᴀ file/video.\n
+ᴘʟᴇᴀsᴇ /upgrade ʏᴏᴜʀ sᴜʙsᴄʀɪᴘᴛɪᴏɴ
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup( [[
            InlineKeyboardButton("👼 𝙳𝙴𝚅𝚂 👼", url='https://t.me/Aaajats')
