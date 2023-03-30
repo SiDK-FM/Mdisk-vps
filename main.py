@@ -129,7 +129,7 @@ def status(folder,message,fsize):
             size = str(int(open(f"tempS-{message.id}.txt","r").readlines()[-2].split()[2].replace(",","")) // 1000000) + "MB "
 
         try:
-            app.edit_message_text(message.chat.id, message.id, f"__Downloaded__ : **{size} **__of__**  {fsize:.1f}M**")
+            app.edit_message_text(message.chat.id, message.id, f"__Downloaded__ : **{size} **__ᴏғ🤒__**  {fsize:.1f}M**\n\n ᴊᴏɪɴ ғᴏʀ ᴍᴏʀᴇ ᴜsᴇғᴜʟʟ ʙᴏᴛs\n\n<b>@MensBotZ<b>")
             time.sleep(10)
         except:
             time.sleep(5)
@@ -180,7 +180,7 @@ def down(message,link):
 
     # checking if its a link returned
     if check == -1:
-        app.edit_message_text(message.chat.id, msg.id,f"__**Can't Download File but here is the Download Link : {file}**__")
+        app.edit_message_text(message.chat.id, msg.id,f"__**Can't Download File but here is the Download Link : {file}**__\n\n<b>@MensBotZ<b>")
         os.rmdir(str(message.id))
         return
 
