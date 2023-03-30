@@ -56,17 +56,17 @@ sᴇɴᴅ ᴍᴇ ᴀ ᴍᴅɪsᴋ ʟɪɴᴋ ᴀɴᴅ \nɪ ᴡɪʟʟ ᴜᴘʟᴏ�
 async def start(client,message):
 	await message.reply_text(text =f"""
 	ʜᴇʟʟᴏ \n
-	🛡️ PLAN 🛡️\n
-	🌸Daily  Upload  limit Unlimited\n
-	🌸Price Rs 40 🇮🇳/🌎 2$  per Month__
+	🛡️ ᴘʟᴀɴ 🛡️\n
+	🌸ᴅᴀɪʟʏ  ᴜᴘʟᴏᴀᴅ  ʟɪᴍɪᴛ ᴜɴʟɪᴍɪᴛᴇᴅ\n
+	🌸ᴘʀɪᴄᴇ ₹10/month  
 	
-	💸Pay Using Upi I'd \n``sandipakumar0911@okaxis``\n
+	💸ᴘᴀʏ ᴜsɪɴɢ ᴜᴘɪ ɪ'ᴅ \n``sandipakumar0911@okaxis``\n
 	
-	💸After Payment Send Screenshots Of\nPayment To Admin
+	💸ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛs ᴏғ\nᴘᴀʏᴍᴡɴᴛ ᴛᴏ ᴀᴅᴍɪɴ
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("🤍 ᴀᴅᴍɪɴ 🤒",url = "https://t.me/fm_onr")], 
-        			[InlineKeyboardButton(" ɢᴘᴀʏ🌎",url = "https://www.paypal.me/ajak4406")],
+        			[InlineKeyboardButton(" 𝟸ɴᴅ ᴀᴅᴍɪɴ🌎",url = "https://t.me/syrus_143_hpy")],
 		                [InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
        )
 	
@@ -85,7 +85,7 @@ async def start(client,message):
 # qr code
 @app.on_message(filters.private & filters.command(["qr"]))
 async def start(client,message):
-	await message.reply_photo("https://ibb.co/FBt9sv2"),
+	await message.reply_photo("https://ibb.co/8MVb9tD"),
     
     
 @app.on_message(filters.private & filters.command(["about"]))
