@@ -37,7 +37,7 @@ async def start(client,message):
 ʜɪ {message.from_user.first_name } 👋
 ɪ'ᴍ ᴘᴀɪᴅ ᴍᴅɪsᴋ ᴜᴘʟᴏᴀᴅᴇʀ ʙᴏᴛ 🚀\nᴘᴇʀᴍᴀɴᴇɴᴛ ᴛʜᴜᴍʙɴᴀɪʟ sᴜᴘᴘᴏʀᴛ💯\n
 sᴇɴᴅ ᴍᴇ ᴀ ᴍᴅɪsᴋ ʟɪɴᴋ ᴀɴᴅ \nɪ ᴡɪʟʟ ᴜᴘʟᴏᴀᴅ ɪᴛ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ ᴀs ᴀ ғɪʟᴇ/ᴠɪᴅᴇᴏ🎥.\n
-ᴘʟᴇᴀsᴇ /upgrade ʏᴏᴜʀ sᴜʙsᴄʀɪᴘᴛɪᴏɴ
+ᴘʟᴇᴀsᴇ /upgrade ʏᴏᴜʀ sᴜʙsᴄʀɪᴘᴛɪᴏɴ\n\n<b> 🔋ᴘᴏᴡᴇʀᴇᴅ ʙʏ :- @MensBotz<b> 
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup( [[
            InlineKeyboardButton("👑 ᴏᴡɴᴇʀ 🫨", url='https://t.me/fm_onr')
@@ -60,7 +60,7 @@ async def start(client,message):
 	🌸ᴅᴀɪʟʏ  ᴜᴘʟᴏᴀᴅ  ʟɪᴍɪᴛ ᴜɴʟɪᴍɪᴛᴇᴅ\n
 	🌸ᴘʀɪᴄᴇ ₹10/month  
 	
-	💸ᴘᴀʏ ᴜsɪɴɢ ᴜᴘɪ ɪ'ᴅ \n``sandipakumar0911@okaxis``\n
+	💸ᴘᴀʏ ᴜsɪɴɢ ᴜᴘɪ ɪᴅ ``sandipakumar0911@okaxis``\n ᴛᴀᴘ ʜᴇʀᴇ /qr ғᴏʀ ǫʀᴄᴏᴅᴇ\n
 	
 	💸ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛs ᴏғ\nᴘᴀʏᴍᴡɴᴛ ᴛᴏ ᴀᴅᴍɪɴ
 	""",reply_to_message_id = message.id ,  
@@ -74,12 +74,12 @@ async def start(client,message):
 @app.on_message(filters.private & filters.command(["plans"]))
 async def start(client,message):
 	await message.reply_text("""
-	PAID PLANS AVAILABLE\n
-	🛡️ PLAN 🛡️\n
+	ᴘᴀɪᴅ ᴘʟᴀɴs ᴀᴠᴀɪʟᴀʙʟᴇ\n
+	ᴘʟᴀɴ 😣\n
 	🌸ᴅᴀɪʟʏ  ᴜᴘʟᴏᴀᴅ  ʟɪᴍɪᴛ ᴜɴʟɪᴍɪᴛᴇᴅ
 	🌸ᴘʀɪᴄᴇ ₹10 
 	🌸ɴᴏ ᴛɪᴍᴇᴏᴜᴛ\n
-ᴘʟᴇᴀsᴇ /upgrade ʏᴏᴜʀ sᴜʙsᴄʀɪᴘᴛɪᴏɴ
+ᴘʟᴇᴀsᴇ /upgrade ʏᴏᴜʀ sᴜʙsᴄʀɪᴘᴛɪᴏɴ\n\n<b> 🔋ᴘᴏᴡᴇʀᴇᴅ ʙʏ :- @MensBotz<b>
 	""")
 	
 	
@@ -94,7 +94,8 @@ async def start(client,message):
 @app.on_message(filters.private & filters.command(["about"]))
 async def start(client,message):
 	await message.reply_text("🤒 ᴍʏ ɴᴀᴍᴇ : @MensMdiskDLbot\n\n🤍 ᴄʀᴇᴀᴛᴇʀ :- @Fm_Onr\n\n🧿 ʟᴀɴɢᴜᴀɢᴇ :ᴘʏᴛʜᴏɴ 𝟹.𝟷𝟷.𝟸\n\n📢 ғʀᴀᴍᴇᴡᴏʀᴋ :ᴘʏʀᴏɢʀᴀᴍ 𝟸.𝟷𝟶.𝟼𝟹\n\n🤖 ʙᴏᴛ sᴇʀᴠᴇʀ : ʟᴜɴᴅ ʟᴇʟᴇ ʙsᴅᴋ")
-
+	
+#help command
 	
 @app.on_message(filters.private & filters.command(["help"]))
 async def start(client,message):
