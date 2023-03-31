@@ -100,32 +100,14 @@ async def start(client,message):
 async def start(client,message):
 	await message.reply_text("""⚠️ ɴᴏᴛᴇ:-\n\n
 	
-/start - basic usage
-
-/help - this message
-
-/mdisk mdisklink - usage
-
-/thumb - reply to a image document of size less than 200KB to set it as Thumbnail ( you can also send image as a photo to set it as Thumbnail automatically )
-
-/remove - remove Thumbnail
-
-/show - show Thumbnail
-
-/change - change upload mode ( default mode is Document )
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-	
-ᴘʟᴇᴀsᴇ /upgrade ʏᴏᴜʀ sᴜʙsᴄʀɪᴘᴛɪᴏɴ
+/start - ʙᴀsɪᴄ ᴜsᴀɢᴇ
+/help - ᴛʜɪs ᴍᴇssᴀɢᴇ
+/mdisk ᴍᴅɪsᴋʟɪɴᴋ - ᴜsᴀɢᴇ
+/thumb - ʀᴇᴘʟʏ ᴛᴏ ᴀ ɪᴍᴀɢᴇ ᴅᴏᴄᴜᴍᴇɴᴛ ᴏғ sɪᴢᴇ ʟᴇss ᴛʜᴀɴ 200KB ᴛᴏ sᴇᴛ ɪᴛ ᴀs ᴛʜᴜᴍʙɴᴀɪʟ ( ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ sᴇɴᴅ ɪᴍᴀɢᴇ ᴀs ᴀ ᴘʜᴏᴛᴏ ᴛᴏ sᴇᴛ ɪᴛ ᴀs ᴛʜᴜᴍʙɴᴀɪʟ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ )
+/remove - ʀᴇᴍᴏᴠᴇ ᴛʜᴜᴍʙɴᴀɪʟ
+/show - sʜᴏᴡ ᴛʜᴜᴍʙɴᴀɪʟ
+/change - ᴄʜᴀɴɢᴇ ᴜᴘʟᴏᴀᴅ ᴍᴏᴅᴇ ( ᴅᴇғᴀᴜʟᴛ ᴍᴏᴅᴇ ɪs ᴅᴏᴄᴜᴍᴇɴᴛ 		
+ᴘʟᴇᴀsᴇ /upgrade ʏᴏᴜʀ sᴜʙsᴄʀɪᴘᴛɪᴏɴ\n\n<b> 🔋ᴘᴏᴡᴇʀᴇᴅ ʙʏ :- @MensBotz<b>
 	""")
 	
 # check for user access
