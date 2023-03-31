@@ -82,6 +82,9 @@ async def start(client,message):
 ᴘʟᴇᴀsᴇ /upgrade ʏᴏᴜʀ sᴜʙsᴄʀɪᴘᴛɪᴏɴ
 	""")
 	
+	
+	
+	
 # qr code
 @app.on_message(filters.private & filters.command(["qr"]))
 async def start(client,message):
@@ -92,7 +95,39 @@ async def start(client,message):
 async def start(client,message):
 	await message.reply_text("🤒 ᴍʏ ɴᴀᴍᴇ : @MensMdiskDLbot\n\n🤍 ᴄʀᴇᴀᴛᴇʀ :- @Fm_Onr\n\n🧿 ʟᴀɴɢᴜᴀɢᴇ :ᴘʏᴛʜᴏɴ 𝟹.𝟷𝟷.𝟸\n\n📢 ғʀᴀᴍᴇᴡᴏʀᴋ :ᴘʏʀᴏɢʀᴀᴍ 𝟸.𝟷𝟶.𝟼𝟹\n\n🤖 ʙᴏᴛ sᴇʀᴠᴇʀ : ʟᴜɴᴅ ʟᴇʟᴇ ʙsᴅᴋ")
 
+	
+@app.on_message(filters.private & filters.command(["help"]))
+async def start(client,message):
+	await message.reply_text("""⚠️ ɴᴏᴛᴇ:-\n\n
+	
+/start - basic usage
 
+/help - this message
+
+/mdisk mdisklink - usage
+
+/thumb - reply to a image document of size less than 200KB to set it as Thumbnail ( you can also send image as a photo to set it as Thumbnail automatically )
+
+/remove - remove Thumbnail
+
+/show - show Thumbnail
+
+/change - change upload mode ( default mode is Document )
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+	
+ᴘʟᴇᴀsᴇ /upgrade ʏᴏᴜʀ sᴜʙsᴄʀɪᴘᴛɪᴏɴ
+	""")
+	
 # check for user access
 def checkuser(message):
     if auth != "" or ban != "":
